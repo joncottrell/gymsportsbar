@@ -1,26 +1,32 @@
-html,
+@import url("https://fonts.googleapis.com/css?family=Oswald:400,400i,500,700");
+
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-image: url("/images/checkers.jpg");
+  background-color: black;
+  font-family: verdana, sans-serif, arial, helvetica;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.logo-bg {
+  background-color: #090909;
 }
 
-* {
-  box-sizing: border-box;
+.text-gradient {
+  background-size: 100%;
+  background-color: white;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(#090909, #c1bdbd, #090909);
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.slide {
+  display: none;
 }
+
+.headline {
+  font-family: "Oswald", sans-serif;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

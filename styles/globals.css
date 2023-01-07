@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Oswald:400,400i,500,700");
 
 body {
-  background-image: url("/images/checkers.jpg");
+  background-image: url("/checkers.jpg");
   background-color: black;
   font-family: verdana, sans-serif, arial, helvetica;
 }

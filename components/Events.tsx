@@ -52,7 +52,6 @@ function getEvents(location: Location) {
 
   let month = start;
   while (month.toMillis() < end.toMillis()) {
-    console.log(`month: ${month.toISODate()}`);
     months.push(month);
     month = month.plus({ months: 1 });
   }
@@ -126,9 +125,15 @@ export default function Events({ location }: { location: Location }) {
                   <div className="flex flex-col flex-grow md:text-base text-sm gap-1.5 py-1">
                     {events
                       .filter((event) => day.hasSame(event.date, "day"))
-                      .map((event, index) => (
-                        <h3 key={index}>{event.name}</h3>
-                      ))}
+                      .map((event, index) =>
+                        event.url ? (
+                          <a href={event.url} target="_blank" rel="noreferrer">
+                            {event.name}
+                          </a>
+                        ) : (
+                          <p>{event.name}</p>
+                        )
+                      )}
                   </div>
                 </div>
               ))}

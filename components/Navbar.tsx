@@ -1,7 +1,5 @@
-import Image from "next/image";
 import Link from "next/link";
 import { Location, LOCATION_DATA } from "../location";
-import logoBright from "../images/logoBright.gif";
 
 export default function Navbar({ location }: { location: Location }) {
   const locationData = LOCATION_DATA[location];
@@ -10,9 +8,9 @@ export default function Navbar({ location }: { location: Location }) {
       <nav className="px-2 sm:px-4 py-2.5 w-full z-20 top-0 left-0 bg-opacity-70 bg-black">
         <div className="container flex flex-wrap justify-between items-center mx-auto">
           <Link href="/" className="flex items-center">
-            <Image
+            <img
               className="mr-3 h-16 sm:h-24"
-              src={logoBright}
+              src={"/logo-bright.gif"}
               alt="Gym Sports Bar"
             />
           </Link>

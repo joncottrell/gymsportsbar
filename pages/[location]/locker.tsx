@@ -1,7 +1,6 @@
 import { getLocationPaths, getLocationProps, Location } from "../../location";
 import Navbar from "../../components/Navbar";
 import { GetStaticPaths, GetStaticProps } from "next";
-import lockerRoom from "../../images/lockerRoom.jpeg";
 
 export default function LockerPage(props: { location: Location }) {
   return (
@@ -10,7 +9,7 @@ export default function LockerPage(props: { location: Location }) {
 
       <div
         className="bg-[url('/images/locker-room-background.jpeg')] bg-cover text-slate-200 p-8 text-base"
-        style={{ backgroundImage: `url(${lockerRoom.src})` }}
+        style={{ backgroundImage: `url(/locker-room.jpeg)` }}
       >
         <div className="flex flex-col content-center justify-center gap-y-4 p-8 max-w-lg mx-auto rounded bg-black bg-opacity-50">
           <h1 className="font-bold text-lg text-center">

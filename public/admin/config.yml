@@ -3,13 +3,13 @@ backend:
   branch: main # Branch to update (optional; defaults to master)
 
 media_folder: "public/uploads" # Where media files will be stored
-public_folder: "/uploads" # Where the media files can be accessed from the server
 
 collections:
   - name: "contacts"
     label: "Contacts"
     description: "Contact information for each location"
     extension: "json"
+    create: true
     files:
       - label: "Locations"
         name: "locations"

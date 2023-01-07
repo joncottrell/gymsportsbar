@@ -1,0 +1,13 @@
+{
+  "ny": [],
+  "la": [
+    {
+      "weekday": 1,
+      "start": "16:00",
+      "end": "20:00",
+      "name": "Happy Hour",
+      "url": ""
+    }
+  ],
+  "ftl": []
+}

@@ -1,5 +1,6 @@
-{
-  "ny": {
+[
+  {
+    "location": "ny",
     "address1": "167 8th Ave [BTW 18th & 19th St]",
     "address2": "New York, NY 10011",
     "phone": "(212) 337-2439",
@@ -19,7 +20,8 @@
       }
     ]
   },
-  "la": {
+  {
+    "location": "la",
     "address1": "8737 Santa Monica Blvd",
     "address2": "West Hollywood, CA 90069",
     "phone": "(310) 659-2004",
@@ -35,7 +37,8 @@
       }
     ]
   },
-  "ftl": {
+  {
+    "location": "ftl",
     "address1": "2287 Wilton Dr",
     "address2": "Wilton Manors, FL 33305",
     "phone": "(954) 990-7973",
@@ -51,4 +54,4 @@
       }
     ]
   }
-}
+]

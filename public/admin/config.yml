@@ -17,7 +17,7 @@ collections:
         widget: "string"
       - label: "URL Identifier"
         name: "title"
-        description: "url identifier such as ny, la, ftl"
+        hint: "url identifier such as ny, la, ftl"
         widget: "string"
       - label: "Contact Information"
         name: "contacts"
@@ -37,6 +37,8 @@ collections:
             widget: "string"
           - label: "Location Hours"
             name: "hours"
+            summary: "{{fields.days}}: {{fields.hours}}"
+            minimize_collapsed: true
             widget: "list"
             fields:
               - label: "Days"
@@ -45,3 +47,37 @@ collections:
               - label: "Hours"
                 name: "hours"
                 widget: "string"
+      - label: "Events"
+        name: "events"
+        widget: "list"
+        fields:
+          - label: "Event Name"
+            name: "name"
+            widget: "string"
+          - label: "Destination URL"
+            name: "url"
+            required: false
+            widget: "string"
+          - label: "Date"
+            name: "date"
+            widget: "datetime"
+            time_format: false
+            format: "YYYY-MM-DD"
+            date_format: true
+          - label: "Start Time"
+            default: ""
+            name: "start"
+            required: false
+            widget: "datetime"
+            time_format: true
+            date_format: false
+            format: "HH:mm"
+          - label: "End Time"
+            name: "end"
+            default: ""
+            required: false
+            widget: "datetime"
+            time_format: true
+            date_format: false
+            format: "HH:mm"
+

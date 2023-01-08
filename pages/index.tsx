@@ -1,21 +1,33 @@
+import { GetStaticProps } from "next";
 import Link from "next/link";
+import { ALL_LOCATION_DATA, LocationData } from "../location";
 
-export default function Main() {
+export default function Main(props: { locations: LocationData[] }) {
+  const locations = [...props.locations].sort((a, b) => {
+    if (a.name < b.name) {
+      return 1;
+    } else if (a.name > b.name) {
+      return -1;
+    } else {
+      return 0;
+    }
+  });
+
   return (
     <div className="h-screen flex justify-center items-center">
       <div className="border-2 flex flex-wrap justify-center logo-bg gap-4 h-full sm:h-fit w-fit">
         <div className="flex flex-col content-fit">
           <img src="/logo.gif" alt="Gym Sports Bar" className="aspect-auto" />
           <div className="flex flex-col h-full items-end justify-around py-4 text-3xl headline text-slate-100">
-            <Link href="/ny" className="py-2 hover:text-sky-500">
-              NEW YORK
-            </Link>
-            <Link href="/la" className="py-2 hover:text-sky-500">
-              LOS ANGELES
-            </Link>
-            <Link href="/ftl" className="py-2 hover:text-sky-500">
-              FORT LAUDERDALE
-            </Link>
+            {locations.map((location) => (
+              <Link
+                key={location.title}
+                href={location.title}
+                className="py-2 hover:text-sky-500 uppercase"
+              >
+                {location.name}
+              </Link>
+            ))}
           </div>
         </div>
         <div>
@@ -32,3 +44,11 @@ export default function Main() {
     </div>
   );
 }
+
+export const getStaticProps: GetStaticProps = async (context) => {
+  return {
+    props: {
+      locations: ALL_LOCATION_DATA,
+    },
+  };
+};

@@ -1,8 +1,8 @@
 import Link from "next/link";
-import { Location, LOCATION_DATA } from "../location";
+import { LocationData } from "../location";
 
-export default function Navbar({ location }: { location: Location }) {
-  const locationData = LOCATION_DATA[location];
+export default function Navbar({ location }: { location: LocationData }) {
+  const slug = location.title;
   return (
     <>
       <nav className="px-2 sm:px-4 py-2.5 w-full z-20 top-0 left-0 bg-opacity-70 bg-black">
@@ -45,7 +45,7 @@ export default function Navbar({ location }: { location: Location }) {
             <ul className="flex flex-col py-4 px-8 mt-4 uppercase bg-gray-600 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-gray-600">
               <li>
                 <a
-                  href={`/${location}`}
+                  href={`/${slug}`}
                   className="block py-2 px-4 text-white rounded hover:bg-gray-500 md:hover:bg-transparent md:hover:text-slate-700 md:p-0"
                 >
                   Home
@@ -53,7 +53,7 @@ export default function Navbar({ location }: { location: Location }) {
               </li>
               <li>
                 <a
-                  href={`/${location}/events`}
+                  href={`/${slug}/events`}
                   className="block py-2 px-4 text-white rounded hover:bg-gray-500 md:hover:bg-transparent md:hover:text-slate-700 md:p-0"
                 >
                   Events
@@ -61,7 +61,7 @@ export default function Navbar({ location }: { location: Location }) {
               </li>
               <li>
                 <a
-                  href={`/${location}/leagues`}
+                  href={`/${slug}/leagues`}
                   className="block py-2 px-4 text-white rounded hover:bg-gray-500 md:hover:bg-transparent md:hover:text-slate-700 md:p-0"
                 >
                   Leagues
@@ -69,26 +69,26 @@ export default function Navbar({ location }: { location: Location }) {
               </li>
               <li>
                 <a
-                  href={`/${location}/shop`}
+                  href={`/${slug}/shop`}
                   className="block py-2 px-4 text-white rounded hover:bg-gray-500 md:hover:bg-transparent md:hover:text-slate-700 md:p-0"
                 >
                   Shop
                 </a>
               </li>
-              {location == "ny" && (
+              {location.locker && (
                 <li>
                   <a
-                    href={`/${location}/locker`}
+                    href={`/${slug}/locker`}
                     className="block py-2 px-4 text-white rounded hover:bg-gray-500 md:hover:bg-transparent md:hover:text-slate-700 md:p-0"
                   >
                     Locker Room
                   </a>
                 </li>
               )}
-              {location != "ny" && (
+              {location.menu.length > 0 && (
                 <li>
                   <a
-                    href={`/${location}/menu`}
+                    href={`/${slug}/menu`}
                     className="block py-2 px-4 text-white rounded hover:bg-gray-500 md:hover:bg-transparent md:hover:text-slate-700 md:p-0"
                   >
                     Menu
@@ -97,7 +97,7 @@ export default function Navbar({ location }: { location: Location }) {
               )}
               <li>
                 <a
-                  href={`/${location}/contact`}
+                  href={`/${slug}/contact`}
                   className="block py-2 px-4 text-white rounded hover:bg-gray-500 md:hover:bg-transparent md:hover:text-slate-700 md:p-0"
                 >
                   Contact
@@ -108,18 +108,18 @@ export default function Navbar({ location }: { location: Location }) {
         </div>
         <div className="flex flex-col justify-center items-center p-2">
           <a
-            href={locationData.mapsLink}
+            href={location.contacts.maps}
             target="_blank"
             rel="noreferrer"
             className="bg-gray-500 hover:bg-opacity-80 bg-opacity-50 rounded p-4"
           >
             <div className="text-white text-4xl font-bold">
               <div className="flex flex-row flex-wrap justify-center items-center gap-x-2">
-                <div className="uppercase text-center">{locationData.team}</div>
+                <div className="uppercase text-center">{location.team}</div>
               </div>
             </div>
             <div className="text-blue-300 text-center text-sm">
-              {locationData.address}
+              {location.contacts.address1}
             </div>
           </a>
         </div>

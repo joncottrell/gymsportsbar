@@ -1,8 +1,7 @@
-import { Location } from "../location";
-import postersData from "../data/posters.json";
+import { LocationData } from "../location";
 
-export default function Main({ location }: { location: Location }) {
-  const posters = postersData[location];
+export default function Main({ location }: { location: LocationData }) {
+  const posters = location.posters;
 
   return (
     <>

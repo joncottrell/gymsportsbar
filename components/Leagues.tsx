@@ -1,14 +1,13 @@
-import { Location } from "../location";
-import leagueData from "../data/leagues.json";
+import { LocationData } from "../location";
 
 export default function Leagues({
   location,
   league,
 }: {
-  location: Location;
+  location: LocationData;
   league?: string;
 }) {
-  const leagues = leagueData[location];
+  const leagues = location.leagues;
   const info = leagues.find((l) => l.slug == league);
 
   return (

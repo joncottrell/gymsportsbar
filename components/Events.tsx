@@ -1,15 +1,13 @@
 import * as React from "react";
-import { Location, LOCATION_DATA } from "../location";
+import { LocationData } from "../location";
 import { DateTime } from "luxon";
-import recurringData from "../data/recurring.json";
-import eventsData from "../data/events.json";
 
-function getEvents(location: Location) {
-  const events = eventsData[location];
-  const recurring = recurringData[location];
+function getEvents(location: LocationData) {
+  const events = location.events;
+  const recurring = location.recurring;
 
   const start = DateTime.now()
-    .setZone(LOCATION_DATA[location].timezone)
+    .setZone(location.contacts.timezone)
     .startOf("month");
   const end = start.plus({ months: 2 }).endOf("month");
 
@@ -75,10 +73,8 @@ function getEvents(location: Location) {
   return { months, days, events: results };
 }
 
-export default function Events({ location }: { location: Location }) {
-  const today = DateTime.now()
-    .setZone(LOCATION_DATA[location].timezone)
-    .toISODate();
+export default function Events({ location }: { location: LocationData }) {
+  const today = DateTime.now().setZone(location.contacts.timezone).toISODate();
   const todayRef = React.useRef<HTMLDivElement>(null);
 
   const { months, days, events } = getEvents(location);

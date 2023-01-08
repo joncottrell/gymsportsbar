@@ -1,8 +1,12 @@
-import { getLocationPaths, getLocationProps, Location } from "../../location";
+import {
+  getLocationPaths,
+  getLocationProps,
+  LocationData,
+} from "../../location";
 import Navbar from "../../components/Navbar";
 import { GetStaticPaths, GetStaticProps } from "next";
 
-export default function LockerPage(props: { location: Location }) {
+export default function LockerPage(props: { location: LocationData }) {
   return (
     <>
       <Navbar location={props.location} />
@@ -41,7 +45,7 @@ export default function LockerPage(props: { location: Location }) {
           </p>
           <a
             className="text-center text-lg font-bold hover:text-slate-400"
-            href={`/${props.location}/contact`}
+            href={`/${props.location.title}/contact`}
           >
             Contact us to learn more
           </a>

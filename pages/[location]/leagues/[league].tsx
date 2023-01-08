@@ -1,16 +1,10 @@
 import Navbar from "../../../components/Navbar";
 import Leagues from "../../../components/Leagues";
-import {
-  Location,
-  getLocationProps,
-  getLocationPaths,
-  ALL_LOCATIONS,
-} from "../../../location";
-import leaguesData from "../../../data/leagues.json";
+import { ALL_LOCATION_DATA, LocationData } from "../../../location";
 import { GetStaticPaths, GetStaticProps } from "next";
 
 export default function LeaguePage(props: {
-  location: Location;
+  location: LocationData;
   league: string;
 }) {
   return (
@@ -24,7 +18,9 @@ export default function LeaguePage(props: {
 export const getStaticProps: GetStaticProps = async (context) => {
   return {
     props: {
-      location: context.params?.location,
+      location: ALL_LOCATION_DATA.find(
+        (data) => data.title == context.params?.location
+      )!,
       league: context.params?.league,
     },
   };
@@ -32,11 +28,11 @@ export const getStaticProps: GetStaticProps = async (context) => {
 
 export const getStaticPaths: GetStaticPaths = async (context) => {
   return {
-    paths: ALL_LOCATIONS.flatMap((location) =>
-      leaguesData[location].map((league) => {
+    paths: ALL_LOCATION_DATA.flatMap((location) =>
+      location.leagues.map((league) => {
         return {
           params: {
-            location: location,
+            location: location.title,
             league: league.slug,
           },
         };

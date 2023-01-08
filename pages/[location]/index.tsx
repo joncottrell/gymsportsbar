@@ -1,10 +1,10 @@
 import Navbar from "../../components/Navbar";
 import Main from "../../components/Main";
-import { Location } from "../../location";
+import { LocationData } from "../../location";
 import { GetStaticPaths, GetStaticProps } from "next";
 import { getLocationProps, getLocationPaths } from "../../location";
 
-export default function HomePage(props: { location: Location }) {
+export default function HomePage(props: { location: LocationData }) {
   return (
     <>
       <Navbar location={props.location} />

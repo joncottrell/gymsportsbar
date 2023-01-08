@@ -1,10 +1,10 @@
 import Navbar from "../../components/Navbar";
-import { Location } from "../../location";
+import { LocationData } from "../../location";
 import { GetStaticPaths, GetStaticProps } from "next";
 import { getLocationProps, getLocationPaths } from "../../location";
 import Menu from "../../components/Menu";
 
-export default function MenuPage(props: { location: Location }) {
+export default function MenuPage(props: { location: LocationData }) {
   return (
     <>
       <Navbar location={props.location} />

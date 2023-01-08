@@ -142,7 +142,6 @@ collections:
       - label: "Menu"
         name: "menu"
         widget: "list"
-        minimize_collapsed: true
         fields:
           - label: "Section"
             name: "section"
@@ -150,7 +149,6 @@ collections:
           - label: "Food Items"
             name: "items"
             widget: "list"
-            minimize_collapsed: true
             fields:
               - label: "Name"
                 name: "name"
@@ -158,3 +156,17 @@ collections:
               - label: "Description"
                 name: "description"
                 widget: "text"
+      - label: "Home Page Posters"
+        name: "posters"
+        widget: "list"
+        fields:
+          - label: "Image"
+            name: "img"
+            widget: "image"
+          - label: "Link"
+            name: "link"
+            widget: "string"
+            required: false
+          - label: "Title"
+            name: "title"
+            widget: "string"

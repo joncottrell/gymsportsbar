@@ -1,9 +1,12 @@
 {
   "name": "New York",
+  "team": "New York",
   "title": "ny",
   "contacts": {
-    "address1": "167 8th Ave [BTW 18th & 19th St]",
+    "timezone": "America/New_York",
+    "address1": "167 8th Ave. @ 18/19th NYC",
     "address2": "New York, NY 10011",
+    "maps": "https://g.page/gymsportsbarny?share",
     "phone": "(212) 337-2439",
     "email": "info@gymsportsbar.com",
     "hours": [

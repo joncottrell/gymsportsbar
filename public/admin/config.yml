@@ -22,6 +22,7 @@ collections:
       - label: "Contact Information"
         name: "contacts"
         widget: "object"
+        collapsed: true
         fields:
           - label: "Address Line 1"
             name: "address1"
@@ -50,6 +51,7 @@ collections:
       - label: "Recurring Events"
         name: "recurring"
         widget: "list"
+        minimize_collapsed: true
         fields:
           - label: "Event Name"
             name: "name"
@@ -84,6 +86,7 @@ collections:
       - label: "Events"
         name: "events"
         widget: "list"
+        minimize_collapsed: true
         fields:
           - label: "Event Name"
             name: "name"
@@ -114,4 +117,25 @@ collections:
             time_format: true
             date_format: false
             format: "HH:mm"
-
+      - label: "Sports Leagues"
+        name: "leagues"
+        widget: "list"
+        minimize_collapsed: true
+        fields:
+          - label: "Name"
+            name: "name"
+            widget: "string"
+          - label: "Image"
+            name: "img"
+            widget: "image"
+            required: false
+          - label: "Slug"
+            name: "slug"
+            hint: "Slug is a unique identifier for this league's url"
+            widget: "string"
+          - label: "Description"
+            name: "description"
+            widget: "text"
+          - label: "Website"
+            name: "website"
+            widget: "string"

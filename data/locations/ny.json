@@ -29,5 +29,14 @@
       "name": "New Year's",
       "url": "https://www.google.com"
     }
+  ],
+  "recurring": [
+    {
+      "weekday": 1,
+      "start": "16:00",
+      "end": "20:00",
+      "name": "Happy Hour",
+      "url": "https://www.google.com"
+    }
   ]
 }

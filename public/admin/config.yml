@@ -47,6 +47,40 @@ collections:
               - label: "Hours"
                 name: "hours"
                 widget: "string"
+      - label: "Recurring Events"
+        name: "recurring"
+        widget: "list"
+        fields:
+          - label: "Event Name"
+            name: "name"
+            widget: "string"
+          - label: "Destination URL"
+            name: "url"
+            required: false
+            widget: "string"
+          - label: "Weekday"
+            name: "weekday"
+            widget: "number"
+            value_type: "int"
+            min: 1
+            max: 7
+            hint: "1 for Monday, 7 for Sunday"
+          - label: "Start Time"
+            default: ""
+            name: "start"
+            required: false
+            widget: "datetime"
+            time_format: true
+            date_format: false
+            format: "HH:mm"
+          - label: "End Time"
+            name: "end"
+            default: ""
+            required: false
+            widget: "datetime"
+            time_format: true
+            date_format: false
+            format: "HH:mm"
       - label: "Events"
         name: "events"
         widget: "list"

@@ -160,6 +160,9 @@ collections:
         name: "posters"
         widget: "list"
         fields:
+          - label: "Title"
+            name: "title"
+            widget: "string"
           - label: "Image"
             name: "img"
             widget: "image"
@@ -167,6 +170,3 @@ collections:
             name: "link"
             widget: "string"
             required: false
-          - label: "Title"
-            name: "title"
-            widget: "string"

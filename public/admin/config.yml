@@ -139,3 +139,22 @@ collections:
           - label: "Website"
             name: "website"
             widget: "string"
+      - label: "Menu"
+        name: "menu"
+        widget: "list"
+        minimize_collapsed: true
+        fields:
+          - label: "Section"
+            name: "section"
+            widget: "string"
+          - label: "Food Items"
+            name: "items"
+            widget: "list"
+            minimize_collapsed: true
+            fields:
+              - label: "Name"
+                name: "name"
+                widget: "string"
+              - label: "Description"
+                name: "description"
+                widget: "text"

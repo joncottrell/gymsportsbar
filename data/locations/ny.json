@@ -47,5 +47,141 @@
       "description": "The New York City Pride Basketball League is New York's first official LGBTQIA+ basketball league. The league provides an environment free of harassment and discrimination for members and friends of the LGBT community to play basketball and fulfill their athletic aspirations. Games are played at the Field House at Chelsea Piers.",
       "website": "https://www.pridebasketballnyc.org"
     }
+  ],
+  "menu": [
+    {
+      "section": "Snacks & Sides",
+      "items": [
+        {
+          "name": "Bacon, Egg & Cheese Sandwich",
+          "description": "with fries"
+        },
+        {
+          "name": "Chicken Chipotle Taco",
+          "description": "chipotle mayo, aged cheddar, pickled red onion, cilantro"
+        },
+        {
+          "name": "Chicken Tenders",
+          "description": "chicken breat tenders with choice of sauce"
+        },
+        {
+          "name": "Chicken Wings (10)",
+          "description": "fried and tossed wit hot, mild, bbq, or soy garlic ginger"
+        },
+        {
+          "name": "Churros",
+          "description": "with chocolate sauce"
+        },
+        {
+          "name": "Fish & Chips",
+          "description": ""
+        },
+        {
+          "name": "Fish Taco",
+          "description": "fried pollock bites, lime-cilantro slaw"
+        },
+        {
+          "name": "Pork Taco",
+          "description": "chipotle mayo, aged cheddar, picked red onion, cilantro"
+        },
+        {
+          "name": "Shrimp Taco",
+          "description": "fried shrimp, lime-cilantro slaw"
+        },
+        {
+          "name": "Fried Cheese Curds",
+          "description": "with marinara"
+        },
+        {
+          "name": "Fried Pickles",
+          "description": "with ranch"
+        },
+        {
+          "name": "Guacamole & Chips",
+          "description": ""
+        },
+        {
+          "name": "Hand Cut Fries",
+          "description": "fresh, hand-cut fries"
+        },
+        {
+          "name": "Hot Dog",
+          "description": "add chili, add cheese"
+        },
+        {
+          "name": "Nachos",
+          "description": "with sour cream, jalapeno, and salsa. can add chicken or beef"
+        },
+        {
+          "name": "Onion Rings",
+          "description": "with smoked paprika aioli"
+        },
+        {
+          "name": "Parmesan Truffle Fries",
+          "description": "with lemon garlic aioli"
+        },
+        {
+          "name": "Sweet Potato Fries",
+          "description": "with cinnamon sugar & marshamallow sauce"
+        },
+        {
+          "name": "Tots",
+          "description": ""
+        },
+        {
+          "name": "Potato Skins",
+          "description": ""
+        },
+        {
+          "name": "Side Salad",
+          "description": "with bleu cheese, ranch, or basalmic vinaigrette. can add chicken or beef"
+        },
+        {
+          "name": "Southwestern Chicken Egg Rolls",
+          "description": "with sweet chili sauce"
+        },
+        {
+          "name": "Mac & Cheese Bites",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "section": "Burgers",
+      "items": [
+        {
+          "name": "Build Your Own Burger",
+          "description": "beef, turkey, or vegetarian"
+        },
+        {
+          "name": "#1 Varsity",
+          "description": "american cheese, bacon-onion jam, chipotle mayo"
+        },
+        {
+          "name": "#2 Gym Signature",
+          "description": "beer cheese, black pepper bacon, crispy onions, sea salt"
+        },
+        {
+          "name": "#3 Cowboy",
+          "description": "aged cheddar cheese, bacon, smokey bbq sauce, crispy onions, sea salt"
+        },
+        {
+          "name": "#4 Big Easy",
+          "description": "aged cheddar cheese, bacon, fried egg, chipotle mayo"
+        },
+        {
+          "name": "#5 Shroom",
+          "description": "aged cheddar cheese, sauteed mushrooms, truffle oil, garlic mayo"
+        },
+        {
+          "name": "$6 Big Blue",
+          "description": "bleu cheese, bacon, mayo"
+        },
+        {
+          "name": "Chicken Breast Sandwich",
+          "description": "grilled or souther fried"
+        }
+      ]
+    }
   ]
 }

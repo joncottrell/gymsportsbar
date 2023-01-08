@@ -2,7 +2,9 @@ import { Location } from "../location";
 import contactData from "../data/contact.json";
 
 export default function Contact(props: { location: Location }) {
-  const info = contactData.find((c) => c.location === props.location)!;
+  const info = contactData.locations.find(
+    (c) => c.location === props.location
+  )!;
 
   const phoneLink = `tel:+1${info.phone.replace(/\D/g, "")}`;
 

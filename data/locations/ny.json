@@ -1,0 +1,22 @@
+{
+  "contacts": {
+    "address1": "167 8th Ave [BTW 18th & 19th St]",
+    "address2": "New York, NY 10011",
+    "phone": "(212) 337-2439",
+    "email": "info@gymsportsbar.com",
+    "hours": [
+      {
+        "days": "Mon-Thu",
+        "hours": "4PM - 2AM"
+      },
+      {
+        "days": "Friday",
+        "hours": "4PM - 4AM"
+      },
+      {
+        "days": "Sat-Sun",
+        "hours": "1PM - 4AM"
+      }
+    ]
+  }
+}

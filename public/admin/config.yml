@@ -5,20 +5,21 @@ backend:
 media_folder: "public/uploads" # Where media files will be stored
 
 collections:
-  - name: "contacts"
-    label: "Contacts"
-    description: "Contact information for each location"
-    extension: "json"
+  - name: "locations"
+    label: "Bar Locations"
+    description: "Website Configuration for each location"
     create: true
-    files:
-      - label: "Locations"
-        name: "locations"
-        file: "data/contact.json"
+    extension: "json"
+    folder: "data/locations"
+    fields:
+      - label: "URL Identifier"
+        name: "title"
+        description: "url identifier such as ny, la, ftl"
+        widget: "string"
+      - label: "Contact Information"
+        name: "contacts"
+        widget: "object"
         fields:
-          - label: "Location"
-            name: "location"
-            widget: "string"
-            pattern: ["ny|la|ftl", "Must be ny, la, or ftl."]
           - label: "Address Line 1"
             name: "address1"
             widget: "string"

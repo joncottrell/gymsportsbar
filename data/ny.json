@@ -1,0 +1,14 @@
+{
+  "contacts": {
+    "hours": [
+      {
+        "days": "Thu-Fri",
+        "hours": "4PM-8PM"
+      }
+    ],
+    "address1": "fdfdfd",
+    "address2": "dffdfdf",
+    "phone": "(650) 319-5440",
+    "email": "gym@gymsportsbar.com"
+  }
+}

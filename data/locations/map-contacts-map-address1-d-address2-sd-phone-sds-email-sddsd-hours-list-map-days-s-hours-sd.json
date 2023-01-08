@@ -1,0 +1,14 @@
+{
+  "contacts": {
+    "address1": "d",
+    "address2": "sd",
+    "phone": "sds",
+    "email": "sddsd",
+    "hours": [
+      {
+        "days": "s",
+        "hours": "sd"
+      }
+    ]
+  }
+}

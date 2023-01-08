@@ -12,6 +12,9 @@ collections:
     extension: "json"
     folder: "data/locations"
     fields:
+      - label: "Name"
+        name: "name"
+        widget: "string"
       - label: "URL Identifier"
         name: "title"
         description: "url identifier such as ny, la, ftl"

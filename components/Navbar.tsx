@@ -69,14 +69,14 @@ export default function Navbar({ location }: { location: LocationData }) {
                   </a>
                 </li>
               )}
-              <li>
+              {/* <li>
                 <a
                   href={`/${slug}/shop`}
                   className="block py-2 px-4 text-white rounded hover:bg-gray-500 md:hover:bg-transparent md:hover:text-slate-700 md:p-0"
                 >
                   Shop
                 </a>
-              </li>
+              </li> */}
               {location.locker && (
                 <li>
                   <a

@@ -1,9 +1,23 @@
 {
+  "leagues": [],
+  "posters": [
+    {
+      "title": "Happy Hour",
+      "link": "",
+      "img": "/uploads/gymla_specials_happyhour.jpeg"
+    },
+    {
+      "title": "Bigger Drinks",
+      "link": "",
+      "img": "/uploads/mainrotate1.jpeg"
+    }
+  ],
+  "socials": [
+    {
+      "url": "https://www.facebook.com/GYMSportsbarFortLauderdale"
+    }
+  ],
   "name": "Fort Lauderdale",
-  "team": "For Lauderdale",
-  "title": "ftl",
-  "locker": false,
-  "socials": [{ "url": "https://www.facebook.com/GYMSportsbarFortLauderdale" }],
   "contacts": {
     "timezone": "America/New_York",
     "address1": "2287 Wilton Dr",
@@ -22,6 +36,8 @@
       }
     ]
   },
+  "title": "ftl",
+  "locker": false,
   "events": [
     {
       "start": "21:00",
@@ -31,12 +47,13 @@
       "url": ""
     }
   ],
+  "team": "For Lauderdale",
   "recurring": [
     {
       "weekday": 1,
       "start": "16:00",
       "end": "20:00",
-      "name": "Happy Hour 4PM-8PM",
+      "name": "Happy Hour 4PM-8PM ",
       "url": ""
     },
     {
@@ -68,7 +85,6 @@
       "url": ""
     }
   ],
-  "leagues": [],
   "menu": [
     {
       "section": "Snacks & Sides",
@@ -95,7 +111,7 @@
         },
         {
           "name": "Fish & Chips",
-          "description": ""
+          "description": " "
         },
         {
           "name": "Fish Taco",
@@ -119,7 +135,7 @@
         },
         {
           "name": "Guacamole & Chips",
-          "description": ""
+          "description": " "
         },
         {
           "name": "Hand Cut Fries",
@@ -147,11 +163,11 @@
         },
         {
           "name": "Tots",
-          "description": ""
+          "description": " "
         },
         {
           "name": "Potato Skins",
-          "description": ""
+          "description": " "
         },
         {
           "name": "Side Salad",
@@ -163,7 +179,7 @@
         },
         {
           "name": "Mac & Cheese Bites",
-          "description": ""
+          "description": " "
         }
       ]
     },
@@ -203,18 +219,6 @@
           "description": "grilled or souther fried"
         }
       ]
-    }
-  ],
-  "posters": [
-    {
-      "title": "Happy Hour",
-      "link": "",
-      "img": "/uploads/gymla_specials_happyhour.jpeg"
-    },
-    {
-      "title": "Bigger Drinks",
-      "link": "",
-      "img": "/uploads/mainrotate1.jpeg"
     }
   ]
 }

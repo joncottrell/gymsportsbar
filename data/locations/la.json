@@ -35,35 +35,35 @@
       "weekday": 1,
       "start": "16:00",
       "end": "20:00",
-      "name": "Happy Hour",
+      "name": "Happy Hour 4PM-8PM",
       "url": ""
     },
     {
       "weekday": 2,
       "start": "16:00",
       "end": "20:00",
-      "name": "Happy Hour",
+      "name": "Happy Hour 4PM-8PM",
       "url": ""
     },
     {
       "weekday": 3,
       "start": "16:00",
       "end": "20:00",
-      "name": "Happy Hour",
+      "name": "Happy Hour 4PM-8PM",
       "url": ""
     },
     {
       "weekday": 4,
       "start": "16:00",
       "end": "20:00",
-      "name": "Happy Hour",
+      "name": "Happy Hour 4PM-8PM",
       "url": ""
     },
     {
       "weekday": 5,
       "start": "16:00",
       "end": "20:00",
-      "name": "Happy Hour",
+      "name": "Happy Hour 4PM-8PM",
       "url": ""
     }
   ],
@@ -73,7 +73,8 @@
       "img": "https://i.imgur.com/1ZQ3w9O.jpg",
       "slug": "basketball",
       "description": "The New York City Pride Basketball League is New York's first official LGBTQIA+ basketball league. The league provides an environment free of harassment and discrimination for members and friends of the LGBT community to play basketball and fulfill their athletic aspirations. Games are played at the Field House at Chelsea Piers.",
-      "website": "https://www.pridebasketballnyc.org"
+      "website": "https://www.pridebasketballnyc.org",
+      "section": "Sports"
     }
   ],
   "menu": [
@@ -215,9 +216,14 @@
   ],
   "posters": [
     {
-      "title": "Happy Hour",
+      "title": "Happy Hour 4PM-9PM",
       "link": "",
       "img": "/uploads/gymla_specials_happyhour.jpeg"
+    },
+    {
+      "title": "Bigger Drinks",
+      "link": "",
+      "img": "/uploads/mainrotate1.jpeg"
     }
   ]
 }

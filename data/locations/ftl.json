@@ -35,35 +35,35 @@
       "weekday": 1,
       "start": "16:00",
       "end": "20:00",
-      "name": "Happy Hour",
+      "name": "Happy Hour 4PM-8PM",
       "url": ""
     },
     {
       "weekday": 2,
       "start": "16:00",
       "end": "20:00",
-      "name": "Happy Hour",
+      "name": "Happy Hour 4PM-8PM",
       "url": ""
     },
     {
       "weekday": 3,
       "start": "16:00",
       "end": "20:00",
-      "name": "Happy Hour",
+      "name": "Happy Hour 4PM-8PM",
       "url": ""
     },
     {
       "weekday": 4,
       "start": "16:00",
       "end": "20:00",
-      "name": "Happy Hour",
+      "name": "Happy Hour 4PM-8PM",
       "url": ""
     },
     {
       "weekday": 5,
       "start": "16:00",
       "end": "20:00",
-      "name": "Happy Hour",
+      "name": "Happy Hour 4PM-8PM",
       "url": ""
     }
   ],
@@ -217,6 +217,11 @@
       "title": "Happy Hour",
       "link": "",
       "img": "/uploads/gymla_specials_happyhour.jpeg"
+    },
+    {
+      "title": "Bigger Drinks",
+      "link": "",
+      "img": "/uploads/mainrotate1.jpeg"
     }
   ]
 }

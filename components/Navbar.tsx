@@ -106,7 +106,7 @@ export default function Navbar({ location }: { location: LocationData }) {
             </ul>
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center p-2">
+        <div className="flex flex-col justify-center items-center p-2 my-2">
           <a
             href={location.contacts.maps}
             target="_blank"

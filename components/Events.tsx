@@ -98,9 +98,9 @@ export default function Events({ location }: { location: LocationData }) {
           <div className="flex flex-col font-family-verdana w-full">
             {days
               .filter((day) => day.hasSame(month, "month"))
-              .map((day) => (
+              .map((day, index) => (
                 <div
-                  key={day.toISODate()}
+                  key={index}
                   ref={today == day.toISODate() ? todayRef : null}
                   className={`grid grid-cols-[100px_1fr] border-b py-1.5 px-2 transition-colors ${
                     today == day.toISODate()
@@ -123,11 +123,16 @@ export default function Events({ location }: { location: LocationData }) {
                       .filter((event) => day.hasSame(event.date, "day"))
                       .map((event, index) =>
                         event.url ? (
-                          <a href={event.url} target="_blank" rel="noreferrer">
+                          <a
+                            key={index}
+                            href={event.url}
+                            target="_blank"
+                            rel="noreferrer"
+                          >
                             {event.name}
                           </a>
                         ) : (
-                          <p>{event.name}</p>
+                          <p key={index}>{event.name}</p>
                         )
                       )}
                   </div>

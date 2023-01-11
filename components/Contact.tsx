@@ -7,7 +7,7 @@ export default function Contact(props: { location: LocationData }) {
 
   return (
     <>
-      <div className="flex justify-center items-center border p-4 m-4">
+      <div className="flex justify-center items-center border p-4 m-4 max-w-md">
         <div id="contactleft" className="text-white">
           <div className="p-2">
             <strong>GYM Sportsbar</strong>

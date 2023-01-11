@@ -59,14 +59,16 @@ export default function Navbar({ location }: { location: LocationData }) {
                   Events
                 </a>
               </li>
-              <li>
-                <a
-                  href={`/${slug}/leagues`}
-                  className="block py-2 px-4 text-white rounded hover:bg-gray-500 md:hover:bg-transparent md:hover:text-slate-700 md:p-0"
-                >
-                  Leagues
-                </a>
-              </li>
+              {location.leagues.length > 0 && (
+                <li>
+                  <a
+                    href={`/${slug}/leagues`}
+                    className="block py-2 px-4 text-white rounded hover:bg-gray-500 md:hover:bg-transparent md:hover:text-slate-700 md:p-0"
+                  >
+                    Leagues
+                  </a>
+                </li>
+              )}
               <li>
                 <a
                   href={`/${slug}/shop`}

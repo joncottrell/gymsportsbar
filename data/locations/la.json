@@ -70,11 +70,99 @@
   "leagues": [
     {
       "name": "Basketball",
-      "img": "https://i.imgur.com/1ZQ3w9O.jpg",
+      "img": "/uploads/labasketball.webp",
       "slug": "basketball",
-      "description": "The New York City Pride Basketball League is New York's first official LGBTQIA+ basketball league. The league provides an environment free of harassment and discrimination for members and friends of the LGBT community to play basketball and fulfill their athletic aspirations. Games are played at the Field House at Chelsea Piers.",
-      "website": "https://www.pridebasketballnyc.org",
+      "description": "Los Angeles County's basketball league for the LGBTQ+ community and its allies. Established in 1990",
+      "website": "https://www.lambdabasketball.com",
       "section": "Sports"
+    },
+    {
+      "name": "Softball",
+      "img": "/uploads/lasoftball.png",
+      "slug": "softball",
+      "description": "GLASA is LA's longest running softball league for the LGBTQ+ community and its allies.",
+      "website": "http://lagaysoftball.com",
+      "section": "Sports"
+    },
+    {
+      "name": "Flag Football",
+      "img": "/uploads/laflagfootball.webp",
+      "slug": "flagfootball",
+      "description": "The Los Angeles Flag Football League ('LAFF') offers recreational league and competitive travel play, supported by a variety of social activities throughout the year.",
+      "website": "https://www.laflagfootball.com",
+      "section": "Sports"
+    },
+    {
+      "name": "Volleyball",
+      "img": "/uploads/lavolleyball.png",
+      "slug": "volleyball",
+      "description": "Los Angeles Volleyball Organization",
+      "website": "https://www.playlavo.org",
+      "section": "Sports"
+    },
+    {
+      "name": "Rugby",
+      "img": "/uploads/larugby.jpeg",
+      "slug": "rugby",
+      "description": "For 20 years, the Los Angeles Rebellion Rugby Football Club has promoted equality and inclusivity on and off the pitch.",
+      "website": "https://larebellion.org",
+      "section": "Sports"
+    },
+    {
+      "name": "Cheerleading",
+      "img": "/uploads/lacheerleading.png",
+      "slug": "cheerleading",
+      "description": "Cheer LA was originally conceived to provide a philanthropic outlet for adult men and women interested in the sport of cheerleading. Cheer LA, along with other community based cheerleading organizations, is an active group of volunteers seeking to promote awareness, spirit, and diversity in the LGBTQ community through dynamic cheer, dance, and stunt performances. At each performance Cheer LA raises funds for a local charity. We call this our Cheer for Life program. Through the generous donations of spectators we are able to raise money for HIV/AIDS related charities.",
+      "website": "https://cheerla.org",
+      "section": "Sports"
+    },
+    {
+      "name": "Dodgeball",
+      "img": "/uploads/ladodgeball.png",
+      "slug": "dodgeball",
+      "description": "WeHo Dodgeball's commitment to community outreach is a cornerstone of our operating charter. From fundraising for local charities to participating in health and fitness events, our members partake in a wide-array of charitable endeavors aimed at strengthening our connection to the community we call home.",
+      "website": "https://www.wehododgeball.com",
+      "section": "Sports"
+    },
+    {
+      "name": "Soccer",
+      "img": "/uploads/lasoccer.png",
+      "slug": "soccer",
+      "description": "The West Hollywood Soccer Club is a nonprofit organization that began in 1985 as the Los Angeles Suns. Our founding eight players envisioned creating a team that was welcoming and served as a safe space for all LGBTQ+ players and our allies.",
+      "website": "https://www.wehosc.org",
+      "section": "Sports"
+    },
+    {
+      "name": "Swim / Water Polo",
+      "img": "/uploads/laswim.png",
+      "slug": "swim",
+      "description": "West Hollywood Aquatics (WH2O) is a Masters Swimming and Water Polo club based in West Hollywood, California. The teams include athletes of all abilities ranging from former Olympians to beginners. Everyone is welcome regardless of skill, gender, race, sexual orientation, or disability.",
+      "website": "https://www.teamunify.com/team/wha/page/home",
+      "section": "Sports"
+    },
+    {
+      "name": "Out Loud",
+      "img": "/uploads/laoutloud.png",
+      "slug": "outloud",
+      "description": "OutLoud Sports is a Queer+ recreational sports league, founded in 2007 and proudly representing over 45,000 LGBTQAI+ & allied athletes across the US. Everyone is welcome, regardless of experience or identity.",
+      "website": "https://outloudsports.com",
+      "section": "Sports"
+    },
+    {
+      "name": "Out Of Bounds",
+      "img": "/uploads/nyoutofbounds.jpeg",
+      "slug": "oob",
+      "description": "Out Of Bounds is a non-profit, tax-exempt organization that supports and promotes sports and recreational organizations with interests in the gay, lesbian, bisexual and transgender community of the greater New York City area.",
+      "website": "https://www.oobnyc.org",
+      "section": "Resources"
+    },
+    {
+      "name": "Out Sports",
+      "img": "/uploads/outsports.jpeg",
+      "slug": "outsports",
+      "description": "Outsports' mission is to build the broadest, deepest, most informative and most entertaining gay sports community. This encompasses sports fans, teams and leagues. A mixture of breaking news, commentary, features, member profiles, photo galleries, and discussion boards, Outsports is the place to go for sports fans and athletes. Nothing like Outsports exists either on- or off-line.",
+      "website": "https://www.outsports.com",
+      "section": "Resources"
     }
   ],
   "menu": [

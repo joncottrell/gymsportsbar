@@ -5,33 +5,29 @@
   "locker": false,
   "contacts": {
     "timezone": "America/Los_angeles",
-    "address1": "8919 Santa Monica Blvd",
-    "address2": "New York, NY 10011",
+    "address1": "8737 Santa Monica Blvd",
+    "address2": "West Hollywood, CA 90069",
     "maps": "https://goo.gl/maps/982V6T1QBkPNC6J78",
-    "phone": "(212) 337-2439",
-    "email": "info@gymsportsbar.com",
+    "phone": "(310) 659-2004",
+    "email": "gymla@gymsportsbar.com",
     "hours": [
       {
         "days": "Mon-Thu",
         "hours": "4PM - 2AM"
       },
       {
-        "days": "Friday",
-        "hours": "4PM - 4AM"
-      },
-      {
-        "days": "Sat-Sun",
-        "hours": "1PM - 4AM"
+        "days": "Fri-Sun",
+        "hours": "10AM - 2AM"
       }
     ]
   },
   "events": [
     {
-      "start": "15:00",
-      "end": "16:00",
-      "date": "2023-01-01",
+      "start": "21:00",
+      "end": "24:00",
+      "date": "2022-12-31",
       "name": "New Year's",
-      "url": "https://www.google.com"
+      "url": ""
     }
   ],
   "recurring": [
@@ -40,7 +36,35 @@
       "start": "16:00",
       "end": "20:00",
       "name": "Happy Hour",
-      "url": "https://www.google.com"
+      "url": ""
+    },
+    {
+      "weekday": 2,
+      "start": "16:00",
+      "end": "20:00",
+      "name": "Happy Hour",
+      "url": ""
+    },
+    {
+      "weekday": 3,
+      "start": "16:00",
+      "end": "20:00",
+      "name": "Happy Hour",
+      "url": ""
+    },
+    {
+      "weekday": 4,
+      "start": "16:00",
+      "end": "20:00",
+      "name": "Happy Hour",
+      "url": ""
+    },
+    {
+      "weekday": 5,
+      "start": "16:00",
+      "end": "20:00",
+      "name": "Happy Hour",
+      "url": ""
     }
   ],
   "leagues": [
@@ -57,96 +81,72 @@
       "section": "Snacks & Sides",
       "items": [
         {
-          "name": "Bacon, Egg & Cheese Sandwich",
-          "description": "with fries"
-        },
-        {
-          "name": "Chicken Chipotle Taco",
-          "description": "chipotle mayo, aged cheddar, pickled red onion, cilantro"
+          "name": "Chicken Wings",
+          "description": "Mild, Hot, BBQ, Honey Garlic, Swwet Chili, Garlic Parmesan, Lemon Pepper"
         },
         {
           "name": "Chicken Tenders",
-          "description": "chicken breat tenders with choice of sauce"
-        },
-        {
-          "name": "Chicken Wings (10)",
-          "description": "fried and tossed wit hot, mild, bbq, or soy garlic ginger"
-        },
-        {
-          "name": "Churros",
-          "description": "with chocolate sauce"
-        },
-        {
-          "name": "Fish & Chips",
           "description": ""
-        },
-        {
-          "name": "Fish Taco",
-          "description": "fried pollock bites, lime-cilantro slaw"
-        },
-        {
-          "name": "Pork Taco",
-          "description": "chipotle mayo, aged cheddar, picked red onion, cilantro"
-        },
-        {
-          "name": "Shrimp Taco",
-          "description": "fried shrimp, lime-cilantro slaw"
         },
         {
           "name": "Fried Cheese Curds",
-          "description": "with marinara"
+          "description": ""
         },
         {
           "name": "Fried Pickles",
-          "description": "with ranch"
-        },
-        {
-          "name": "Guacamole & Chips",
           "description": ""
         },
         {
-          "name": "Hand Cut Fries",
-          "description": "fresh, hand-cut fries"
-        },
-        {
-          "name": "Hot Dog",
-          "description": "add chili, add cheese"
-        },
-        {
-          "name": "Nachos",
-          "description": "with sour cream, jalapeno, and salsa. can add chicken or beef"
-        },
-        {
-          "name": "Onion Rings",
-          "description": "with smoked paprika aioli"
+          "name": "French Fries",
+          "description": "add chill or cheese"
         },
         {
           "name": "Parmesan Truffle Fries",
-          "description": "with lemon garlic aioli"
+          "description": "served with roasted garlic mayo"
         },
         {
-          "name": "Sweet Potato Fries",
-          "description": "with cinnamon sugar & marshamallow sauce"
+          "name": "Onion Rings",
+          "description": "served with chipotle mayo"
         },
         {
-          "name": "Tots",
-          "description": ""
+          "name": "Tater Tots",
+          "description": "add chill or cheese"
         },
         {
-          "name": "Potato Skins",
-          "description": ""
+          "name": "Chicharrones",
+          "description": "fresh fried"
         },
         {
-          "name": "Side Salad",
-          "description": "with bleu cheese, ranch, or basalmic vinaigrette. can add chicken or beef"
+          "name": "Breaksfast Sandwich",
+          "description": "includes tater tots, two fried eggs, topped with American cheese & bacon"
         },
         {
-          "name": "Southwestern Chicken Egg Rolls",
-          "description": "with sweet chili sauce"
+          "name": "Hot Dog",
+          "description": "add chili and cheese"
         },
         {
-          "name": "Mac & Cheese Bites",
-          "description": ""
+          "name": "House Salad",
+          "description": "add chicken. Ranch, Blue CHeese, Honey Mustard, Caesar, Balsamic Vinegar"
+        },
+        {
+          "name": "Caesar Salad",
+          "description": "add chicken"
+        },
+        {
+          "name": "Chicken Quesadilla",
+          "description": "Chicken, cheese, onions. peppers, cilantro"
+        },
+        {
+          "name": "Chicken Caesar Wrap",
+          "description": "includes fries"
+        },
+        {
+          "name": "Fish & Chips",
+          "description": "served with tartar sauce"
+        },
+        {
+          "name": "Churros",
+          "description": "served with chocolate or caramel"
         }
       ]
     },
@@ -155,35 +155,60 @@
       "items": [
         {
           "name": "Build Your Own Burger",
-          "description": "beef, turkey, or vegetarian"
+          "description": "beef, turkey burger, grilled chicken breast, fried chicken breast, or fried fish"
         },
         {
-          "name": "#1 Varsity",
+          "name": "Varsity Burger",
           "description": "american cheese, bacon-onion jam, chipotle mayo"
         },
         {
-          "name": "#2 Gym Signature",
+          "name": "Gym Signature Burger",
           "description": "beer cheese, black pepper bacon, crispy onions, sea salt"
         },
         {
-          "name": "#3 Cowboy",
+          "name": "Cowboy Burger",
           "description": "aged cheddar cheese, bacon, smokey bbq sauce, crispy onions, sea salt"
         },
         {
-          "name": "#4 Big Easy",
+          "name": "Big Easy Burger",
           "description": "aged cheddar cheese, bacon, fried egg, chipotle mayo"
         },
         {
-          "name": "#5 Shroom",
+          "name": "Shroom Burger",
           "description": "aged cheddar cheese, sauteed mushrooms, truffle oil, garlic mayo"
         },
         {
-          "name": "$6 Big Blue",
+          "name": "Big Blue Burger",
           "description": "bleu cheese, bacon, mayo"
+        }
+      ]
+    },
+    {
+      "section": "Daily Specials",
+      "items": [
+        {
+          "name": "Mondays",
+          "description": "Burger Night"
         },
         {
-          "name": "Chicken Breast Sandwich",
-          "description": "grilled or souther fried"
+          "name": "Tuesdays",
+          "description": "Taco Tuesday"
+        },
+        {
+          "name": "Wednesdays",
+          "description": "Wing Wednesday"
+        },
+        {
+          "name": "Thursdays",
+          "description": "Hot Dog Night"
+        },
+        {
+          "name": "Fridays",
+          "description": "Fish Friday"
+        },
+        {
+          "name": "Saturdays/Sundays",
+          "description": "Chilaquiles, chicken & waffles, breakfast burrito"
         }
       ]
     }

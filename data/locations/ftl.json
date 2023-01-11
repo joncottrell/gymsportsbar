@@ -6,32 +6,28 @@
   "contacts": {
     "timezone": "America/New_York",
     "address1": "2287 Wilton Dr",
-    "address2": "New York, NY 10011",
+    "address2": "Wilton Manors, FL 33305",
     "maps": "https://goo.gl/maps/7dh1Lh6bHHLnR1mt5",
-    "phone": "(212) 337-2439",
+    "phone": "(954) 990-7973",
     "email": "info@gymsportsbar.com",
     "hours": [
       {
-        "days": "Mon-Thu",
-        "hours": "4PM - 2AM"
+        "days": "Sun-Thu",
+        "hours": "11AM - 2AM"
       },
       {
-        "days": "Friday",
-        "hours": "4PM - 4AM"
-      },
-      {
-        "days": "Sat-Sun",
-        "hours": "1PM - 4AM"
+        "days": "Fri-Sat",
+        "hours": "11AM - 3AM"
       }
     ]
   },
   "events": [
     {
-      "start": "15:00",
-      "end": "16:00",
-      "date": "2023-01-01",
+      "start": "21:00",
+      "end": "24:00",
+      "date": "2022-12-31",
       "name": "New Year's",
-      "url": "https://www.google.com"
+      "url": ""
     }
   ],
   "recurring": [
@@ -40,7 +36,35 @@
       "start": "16:00",
       "end": "20:00",
       "name": "Happy Hour",
-      "url": "https://www.google.com"
+      "url": ""
+    },
+    {
+      "weekday": 2,
+      "start": "16:00",
+      "end": "20:00",
+      "name": "Happy Hour",
+      "url": ""
+    },
+    {
+      "weekday": 3,
+      "start": "16:00",
+      "end": "20:00",
+      "name": "Happy Hour",
+      "url": ""
+    },
+    {
+      "weekday": 4,
+      "start": "16:00",
+      "end": "20:00",
+      "name": "Happy Hour",
+      "url": ""
+    },
+    {
+      "weekday": 5,
+      "start": "16:00",
+      "end": "20:00",
+      "name": "Happy Hour",
+      "url": ""
     }
   ],
   "leagues": [

@@ -1,77 +1,4 @@
 {
-  "name": "New York",
-  "team": "New York",
-  "title": "ny",
-  "locker": true,
-  "socials": [{ "url": "https://www.facebook.com/GYMSPORTSBARNY" }],
-  "contacts": {
-    "timezone": "America/New_York",
-    "address1": "167 8th Ave. @ 18/19th NYC",
-    "address2": "New York, NY 10011",
-    "maps": "https://g.page/gymsportsbarny?share",
-    "phone": "(212) 337-2439",
-    "email": "info@gymsportsbar.com",
-    "hours": [
-      {
-        "days": "Mon-Thu",
-        "hours": "4PM - 2AM"
-      },
-      {
-        "days": "Friday",
-        "hours": "4PM - 4AM"
-      },
-      {
-        "days": "Sat-Sun",
-        "hours": "1PM - 4AM"
-      }
-    ]
-  },
-  "events": [
-    {
-      "start": "21:00",
-      "end": "24:00",
-      "date": "2022-12-31",
-      "name": "New Year's",
-      "url": ""
-    }
-  ],
-  "recurring": [
-    {
-      "weekday": 1,
-      "start": "16:00",
-      "end": "20:00",
-      "name": "Happy Hour 4PM-8PM",
-      "url": ""
-    },
-    {
-      "weekday": 2,
-      "start": "16:00",
-      "end": "20:00",
-      "name": "Happy Hour 4PM-8PM",
-      "url": ""
-    },
-    {
-      "weekday": 3,
-      "start": "16:00",
-      "end": "20:00",
-      "name": "Happy Hour 4PM-8PM",
-      "url": ""
-    },
-    {
-      "weekday": 4,
-      "start": "16:00",
-      "end": "20:00",
-      "name": "Happy Hour 4PM-8PM",
-      "url": ""
-    },
-    {
-      "weekday": 5,
-      "start": "16:00",
-      "end": "20:00",
-      "name": "Happy Hour 4PM-8PM",
-      "url": ""
-    }
-  ],
   "leagues": [
     {
       "name": "Basketball",
@@ -226,10 +153,9 @@
       "section": "Resources"
     }
   ],
-  "menu": [],
   "posters": [
     {
-      "title": "Happy Hour 4PM-9PM",
+      "title": "Happy Hour 4PM-9PM ",
       "link": "",
       "img": "/uploads/gymla_specials_happyhour.jpeg"
     },
@@ -238,5 +164,83 @@
       "link": "",
       "img": "/uploads/mainrotate1.jpeg"
     }
-  ]
+  ],
+  "socials": [
+    {
+      "url": "https://www.facebook.com/GYMSPORTSBARNY"
+    }
+  ],
+  "name": "New York",
+  "contacts": {
+    "timezone": "America/New_York",
+    "address1": "167 8th Ave. @ 18/19th NYC",
+    "address2": "New York, NY 10011",
+    "maps": "https://g.page/gymsportsbarny?share",
+    "phone": "(212) 337-2439",
+    "email": "info@gymsportsbar.com",
+    "hours": [
+      {
+        "days": "Mon-Thu",
+        "hours": "4PM - 2AM"
+      },
+      {
+        "days": "Friday",
+        "hours": "4PM - 4AM"
+      },
+      {
+        "days": "Sat-Sun",
+        "hours": "1PM - 4AM"
+      }
+    ]
+  },
+  "title": "ny",
+  "locker": true,
+  "events": [
+    {
+      "start": "21:00",
+      "end": "24:00",
+      "date": "2022-12-31",
+      "name": "New Year's",
+      "url": ""
+    }
+  ],
+  "team": "New York",
+  "recurring": [
+    {
+      "weekday": 1,
+      "start": "16:00",
+      "end": "20:00",
+      "name": "Happy Hour 4PM-8PM",
+      "url": ""
+    },
+    {
+      "weekday": 2,
+      "start": "16:00",
+      "end": "20:00",
+      "name": "Happy Hour 4PM-8PM",
+      "url": ""
+    },
+    {
+      "weekday": 3,
+      "start": "16:00",
+      "end": "20:00",
+      "name": "Happy Hour 4PM-8PM",
+      "url": ""
+    },
+    {
+      "weekday": 4,
+      "start": "16:00",
+      "end": "20:00",
+      "name": "Happy Hour 4PM-8PM",
+      "url": ""
+    },
+    {
+      "weekday": 5,
+      "start": "16:00",
+      "end": "20:00",
+      "name": "Happy Hour 4PM-8PM",
+      "url": ""
+    }
+  ],
+  "menu": []
 }

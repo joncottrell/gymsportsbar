@@ -3,6 +3,7 @@
   "team": "For Lauderdale",
   "title": "ftl",
   "locker": false,
+  "socials": [{ "url": "https://www.facebook.com/GYMSportsbarFortLauderdale" }],
   "contacts": {
     "timezone": "America/New_York",
     "address1": "2287 Wilton Dr",

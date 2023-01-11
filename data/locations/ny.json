@@ -3,6 +3,7 @@
   "team": "New York",
   "title": "ny",
   "locker": true,
+  "socials": [{ "url": "https://www.facebook.com/GYMSPORTSBARNY" }],
   "contacts": {
     "timezone": "America/New_York",
     "address1": "167 8th Ave. @ 18/19th NYC",

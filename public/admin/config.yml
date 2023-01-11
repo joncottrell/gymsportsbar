@@ -185,3 +185,10 @@ collections:
             name: "link"
             widget: "string"
             required: false
+      - label: "Social Links"
+        name: "socials"
+        widget: "list"
+        fields:
+          - label: "URL"
+            name: "url"
+            widget: "string"

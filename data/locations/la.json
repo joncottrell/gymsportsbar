@@ -3,6 +3,10 @@
   "team": "West Hollywood",
   "title": "la",
   "locker": false,
+  "socials": [
+    { "url": "https://www.facebook.com/GymSportsbarandGrill" },
+    { "url": "https://www.instagram.com/gymsportsbarandgrillweho" }
+  ],
   "contacts": {
     "timezone": "America/Los_angeles",
     "address1": "8737 Santa Monica Blvd",

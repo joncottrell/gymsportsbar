@@ -9,6 +9,7 @@ collections:
     label: "Bar Locations"
     description: "Website Configuration for each location"
     create: true
+    delete: false
     extension: "json"
     folder: "data/locations"
     fields:

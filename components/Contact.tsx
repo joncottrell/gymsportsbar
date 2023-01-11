@@ -6,7 +6,7 @@ export default function Contact(props: { location: LocationData }) {
   const phoneLink = `tel:+1${info.phone.replace(/\D/g, "")}`;
 
   return (
-    <>
+    <div>
       <div className="flex justify-center items-center border p-4 m-4 max-w-md">
         <div id="contactleft" className="text-white">
           <div className="p-2">
@@ -30,20 +30,18 @@ export default function Contact(props: { location: LocationData }) {
           <br />
           <h1 className="pb-2">Hours</h1>
           <div className="grid grid-cols-[90px_1fr] gap-y-2">
-            {info.hours.map((h, index) => (
-              <>
-                <div key={`${index}-1`} className="text-sm">
-                  {h.days}
-                </div>
-                <div key={`${index}-2`} className="text-lg font-bold">
-                  {h.hours}
-                </div>
-              </>
-            ))}
+            {info.hours.flatMap((h, index) => [
+              <div key={`${index}-1`} className="text-sm">
+                {h.days}
+              </div>,
+              <div key={`${index}-2`} className="text-lg font-bold">
+                {h.hours}
+              </div>,
+            ])}
           </div>
           <br />
         </div>
       </div>
-    </>
+    </div>
   );
 }

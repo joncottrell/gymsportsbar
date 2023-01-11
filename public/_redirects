@@ -1,0 +1,5 @@
+# These will only redirect on netlify
+/lahome.html      /la
+/laevents.html    /la/events
+/nyhome.html      /ny
+/nycontact.html   /ny/contact

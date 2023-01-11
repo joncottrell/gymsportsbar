@@ -9,7 +9,7 @@ export default function Navbar({ location }: { location: LocationData }) {
         <div className="container flex flex-wrap justify-between items-center mx-auto">
           <Link href="/" className="flex items-center">
             <img
-              className="mr-3 h-16 sm:h-24"
+              className="mr-3 h-16 sm:h-24 w-22 sm:w-34 content-fit"
               src={"/logo-bright.gif"}
               alt="Gym Sports Bar"
             />

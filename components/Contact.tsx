@@ -6,7 +6,7 @@ export default function Contact(props: { location: LocationData }) {
   const phoneLink = `tel:+1${info.phone.replace(/\D/g, "")}`;
 
   return (
-    <div>
+    <div className="flex justify-center items-center">
       <div className="flex justify-center items-center border p-4 m-4 max-w-md">
         <div id="contactleft" className="text-white">
           <div className="p-2">

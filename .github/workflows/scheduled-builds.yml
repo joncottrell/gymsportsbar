@@ -1,0 +1,13 @@
+name: monthly-netlify-build
+
+on:
+  schedule:
+    - cron: "0 8 1 * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: trigger netlify build
+        run: |
+          curl -X POST -d {} https://api.netlify.com/build_hooks/63bf508f79198d56a499941f
